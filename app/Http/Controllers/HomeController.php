@@ -23,7 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        // dd(session()->get('log'));
+        //dd removed
         return view('home');
     }
 }
